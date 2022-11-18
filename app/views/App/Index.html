@@ -1,0 +1,23 @@
+{{set . "title" "Home"}}
+{{template "header.html" .}}
+<a href="https://rason.com/Account/Login?returnUrl=%2FManage%2FAccount&sso=False">
+  Click login to rason
+</a>
+<header class="jumbotron" style="background-color:rgb(31, 28, 28)">
+  <div class="container">
+    <div class="row">
+      <h1 style="color:red">It works! i want to connect with OAuth hello</h1>
+      <p></p>
+    </div>
+  </div>
+</header>
+
+<div class="container">
+  <div class="row">
+    <div class="span6">
+      {{template "flash.html" .}}
+    </div>
+  </div>
+</div>
+
+{{template "footer.html" .}}
